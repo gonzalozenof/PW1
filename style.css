@@ -1,0 +1,12 @@
+body{margin: 0px;
+    background-image: url("https://i1.wp.com/tausteweb.net/wp-content/uploads/2017/10/fondo-web-blanco.jpg");
+    
+}
+*{
+    border: solid blue 2px;
+}
+
+#titular{padding-left: 10px ;}
+#titular{padding: 10px 0 0 10px;}
+#primer_id{margin:40px}
+p{margin: 20px 30px}
