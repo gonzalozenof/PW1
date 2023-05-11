@@ -7,24 +7,39 @@
     <title>GonzaloZenof</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        *{box-sizing: border-box;
-        }
-        
-        
-        .menu{
-            width: 25%;
+        * {
+            box-sizing: border-box;
+          }
+          
+          .header {
+            border: 1px solid red;
+            padding: 15px;
+          }
+          
+          .row::after {
+            content: "";
+            clear: both;
+            display: table;
+          }
+          
+          [class*="col-"] {
             float: left;
             padding: 15px;
-            border: 3px solid black;
-
-        }
-        .main{
-            width: 75%;
-            float: right;
-            padding: 15px;
-            border: 3px solid black;
-        }
-
+            border: 1px solid red;
+          }
+          
+          .col-1 {width: 8.33%;}
+          .col-2 {width: 16.66%;}
+          .col-3 {width: 25%;}
+          .col-4 {width: 33.33%;}
+          .col-5 {width: 41.66%;}
+          .col-6 {width: 50%;}
+          .col-7 {width: 58.33%;}
+          .col-8 {width: 66.66%;}
+          .col-9 {width: 75%;}
+          .col-10 {width: 83.33%;}
+          .col-11 {width: 91.66%;}
+          .col-12 {width: 100%;}
     </style>
 
 </head>
@@ -51,43 +66,22 @@
         </header>
         <main>
            
-            <div id="menu" class="menu">
-                <ul>
-                    <h2>Descubre las mejores series de todos los tiempos en nuestro ranking.</h2>
-                    <h2>Según la plataforma IMBD.</h2>
-                    <h2><a href="https://www.imdb.com/">Ir a la página.</a></h2>
-                </ul>
-            </div>
-        
-           
-            <div id="main" class="main">
-                <h1>Mejores rankeadas segun la la audencia:</h1>
-                <div id="contenedor-flex">
-                    <div>Breaking Bad </div>
-                    
+            <div class="header">
+                <h1>Chania</h1>
+              </div>
+              
+              <div class="row">
+
+                <div class="row">
+                    <div class="col-3">AAAAAAAAAAAA</div> <!-- 25% -->
+                    <div class="col-9">...</div> <!-- 75% -->
                   </div>
-                
-                  <div id="contenedor-flex">
-                    <div>Los Soprano</div>
-                  </div>
-                
-                  <div id="contenedor-flex">
-                    <div>Prison Break</div>
-          </div>
-
-          <h1>Su descripción:</h1>
-
-          <div class="grid-container">
-            <div>Breaking Bad</div>
-            <div>Los Soprano</div>
-            <div>Prison Break</div>  
-            <div>Cáncer, metanfetamina, peligro, drama, química, crimen, familia, corrupción, transformación, adicción.</div>
-            <div>Familia, mafia, poder, terapia, conflicto, violencia, traición, lealtad, Nueva Jersey.</div>
-            <div>Escape, conspiración, prisión, adrenalina, ingenio, traición, venganza, hermandad, riesgo, libertad.</div>  
-          </div>
-          
-          <h2>Una breve <em>reseña de usuarios</em> obtenida de las opiniones del foro.</h2>          
-
+              
+              </div>
+              
+              </body>
+              </html>
+              
     </main>
     <footer>
    <!--Derechos y etc--->
