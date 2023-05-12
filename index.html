@@ -6,40 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GonzaloZenof</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <style>
-        * {
-            box-sizing: border-box;
-          }
-          
-          .header {
-            border: 1px solid red;
-            padding: 15px;
-          }
-          
-          .row::after {
-            content: "";
-            clear: both;
-            display: table;
-          }
-          
-          [class*="col-"] {
-            float: left;
-            padding: 15px;
-            border: 1px solid red;
-          }
-          
-          .col-1 {width: 8.33%;}
-          .col-2 {width: 16.66%;}
-          .col-3 {width: 25%;}
-          .col-4 {width: 33.33%;}
-          .col-5 {width: 41.66%;}
-          .col-6 {width: 50%;}
-          .col-7 {width: 58.33%;}
-          .col-8 {width: 66.66%;}
-          .col-9 {width: 75%;}
-          .col-10 {width: 83.33%;}
-          .col-11 {width: 91.66%;}
-          .col-12 {width: 100%;}
+ 
     </style>
 
 </head>
@@ -51,36 +20,47 @@
 <body>
 
     <header>
-    <div class="contenedor-centrado">
-        <h1>Ranking de Shows de TV </h1>
-    </div>
+      <div class="contenedor-centrado">
+       <h1> Kiddo Boots </h1>
 
-    <div class="contenedor-centrado">
-    <img src="https://larepublica.cronosmedia.glr.pe/original/2022/01/18/61e70921b022773bec3b3bc4.jpg" alt="Plataformas de streaming.">
+      <div class="contenedor-centrado">
+        <img src="https://nikearprod.vtexassets.com/assets/vtex.file-manager-graphql/images/6c80ad1a-5702-4a55-bedb-c3eedd20331a___cce5822e094913a5603477bdee71620a.png" alt="Plataformas de streaming.">
 
     </header>
 
-    <main>
-        <header id="header">
+  <main>
+      <header id="header">
             <!--menu de navegacion, Registro de usuario, buscador, logo-->
-        </header>
-        <main>
-           
-            <div class="header">
-                <h1>Chania</h1>
-              </div>
-              
-              <div class="row">
+      </header>
 
-                <div class="row">
-                    <div class="col-3">AAAAAAAAAAAA</div> <!-- 25% -->
-                    <div class="col-9">...</div> <!-- 75% -->
-                  </div>
-              
-              </div>
-              
-              </body>
-              </html>
+      <h2>Menu de busqueda</h2>
+  <p>Start to type for a specific category inside the search bar to "filter" the search options.</p>
+
+  <div class="row">
+    <div class="left" style="background-color:#bbb;">
+      <h2>Botines</h2>
+      <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Buscar Botines..." title="Type in a category">
+      <ul id="myMenu">
+        <li><a href="#">Para cesped sintetico</a></li>
+        <li><a href="#">Para cesped natural</a></li>
+        <li><a href="#">Para cesped mixto</a></li>
+        <li><a href="#">Para futbol sala</a></li>
+      </ul>
+    </div>
+  
+  <div class="right" style="background-color:#ddd;">
+    <h2>Page Content</h2>
+    <p>Start to type for a specific category inside the search bar to "filter" the search options.</p>
+    <p>Some text..Some text..Some text..Some text..Some text..Some text..Some text..Some text..</p>
+    <p>Some other text..Some text..Some text..Some text..Some text..Some text..Some text..Some text..</p>
+    <p>Some text..</p>
+  </div>
+</div>
+
+      
+
+        
+
               
     </main>
     <footer>
