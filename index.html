@@ -36,7 +36,7 @@
     [class*="col-"] {
       float: left;
       padding: 15px;
-      border: 1px solid rgb(0, 0, 0);
+      border: 0px solid rgb(0, 0, 0);
     }
     
     .col-1 {width: 8.33%;}
@@ -51,6 +51,11 @@
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+
+    body{margin: 0px;
+      background-color: grey;
+      font-family: 'Courier New', Courier, monospace
+  }
 
 </style>
 <body>
@@ -69,9 +74,6 @@
       <header id="header">
             <!--menu de navegacion, Registro de usuario, buscador, logo-->
       </header>
-
-      <h2>Menu de busqueda</h2>
-
   <div class="row">
     <div class="left" style="background-color:#bbb;">
       <h2>Botines</h2>
@@ -93,45 +95,61 @@
         </div>
     </div>
   
-<div class="row">
-  <div class="col-sm-6">
-    <div class="card" style="width: 18rem;">
-      <img src="https://d2r9epyceweg5n.cloudfront.net/stores/002/059/331/products/bbe91085-d3cf75d8f08364b86516660474439814-640-0.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Nike Mercurial</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="" class="btn btn-primary">Go somewhere</a>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Nike</h5>
+            <p class="card-text">Diseñados para la clase y la grandeza. </p>
+            <img src="https://d2r9epyceweg5n.cloudfront.net/stores/002/059/331/products/bbe91085-d3cf75d8f08364b86516660474439814-640-0.jpg" class="img-thumbnail img-ajustada" alt="...">
+            <a href="https://www.example.com/buy" class="btn btn-primary">Comprar Nike</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Adidas</h5>
+            <p class="card-text">Supera tus limites con los icónicos Adidas.</p>
+            <img src="https://d2r9epyceweg5n.cloudfront.net/stores/002/059/331/products/bbe91085-d3cf75d8f08364b86516660474439814-640-0.jpg" class="img-thumbnail img-ajustada" alt="...">
+            <a href="https://www.example.com/buy" class="btn btn-primary">Comprar Adidas</a>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-
-  <div class="col-sm-6">
-    <div class="card" style="width: 18rem;">
-      <img src="https://d3ugyf2ht6aenh.cloudfront.net/stores/002/042/897/products/iiiiiiiii1-f46fb48f067b670f9f16688241158981-640-0.jpeg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Adidas Copa</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-</div>
-
     
-    <div class="card" style="width: 18rem;">
-      <img src="https://images.puma.net/images/104657/01/sv01/fnd/ARG/" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Puma Borussia</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Puma</h5>
+            <p class="card-text">Creados para sentir la velocidad.</p>
+            <img src="https://d2r9epyceweg5n.cloudfront.net/stores/002/059/331/products/bbe91085-d3cf75d8f08364b86516660474439814-640-0.jpg" class="img-thumbnail img-ajustada" alt="...">
+            <a href="https://www.example.com/buy" class="btn btn-primary">Comprar Puma</a>
+          </div>
+        </div>
+      </div>
+
+
+      
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Umbro</h5>
+            <p class="card-text">Domina el campo con los botines Umbro.</p>
+            <img src="https://d2r9epyceweg5n.cloudfront.net/stores/002/059/331/products/bbe91085-d3cf75d8f08364b86516660474439814-640-0.jpg" class="img-thumbnail img-ajustada" alt="...">
+            <a href="https://www.example.com/buy" class="btn btn-primary">Comprar Umbro</a>
+          </div>
+        </div>
       </div>
     </div>
+    
 
-              
     </main>
     <footer>
       <h1>Todos los botines son fabricados en Argentina</h1>
-       <p>Derechos Reservados © 2023 Tienda Online. Todos los derechos reservados.</p>
+       <h2>Derechos Reservados © 2023 Tienda Online. Todos los derechos reservados.</h2>
 
    <!--Derechos y etc--->
     </footer>

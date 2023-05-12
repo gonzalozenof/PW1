@@ -19,3 +19,10 @@ function myFunction() {
       }
     }
 }
+
+<div class="row">
+<div class="col-sm-6">
+  <div class="card" style="width: 18rem;">
+    <img src="https://d2r9epyceweg5n.cloudfront.net/stores/002/059/331/products/bbe91085-d3cf75d8f08364b86516660474439814-640-0.jpg" class="card-img-top" alt="..."
+      href="" class="btn btn-primary"<a>Comprar</a>
+ 

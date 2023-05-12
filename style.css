@@ -26,9 +26,13 @@ img{
   width: 80vw;
 }
 
+.img-ajustada {
+  width: 75%;
+}
+
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: cornsilk;
+    color: blueviolet;
     font-size: xx-large;
   }
   
