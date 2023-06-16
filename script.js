@@ -1,3 +1,23 @@
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+var mensaje1 = "Hola";
+var mensaje2 = " Mundo";
+var mensaje = mensaje1 + mensaje2; 
+
+document.write(mensaje);
 
 
+function checkAge(age) {
+    if (age > 18) {
+      return true;
+    } else {
+      return confirm('¿Estas autorizado?');
+    }
+  }
+  
+  let age = prompt('¿Qué edad tienes?', 18);
+  
+  if ( checkAge(age) ) {
+    alert( 'Acceso permitido' );
+  } else {
+    alert( 'Acceso denegado' );
+  }
