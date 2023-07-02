@@ -13,8 +13,17 @@ function toggleFavorite(button) {
 
   favoriteCards.forEach(function(card) {
     var cardTitle = card.querySelector('.card-title').textContent;
+    var cardImage = card.querySelector('img').src; // Obtener la URL de la imagen
     var previewItem = document.createElement('li');
-    previewItem.textContent = cardTitle;
+
+    var previewImage = document.createElement('img'); // Crear elemento de imagen
+    previewImage.src = cardImage; // Asignar la URL de la imagen
+    previewItem.appendChild(previewImage); // Agregar imagen al elemento de la lista
+
+    var previewText = document.createElement('span'); // Crear elemento de texto
+    previewText.textContent = cardTitle; // Asignar el título de la tarjeta
+    previewItem.appendChild(previewText); // Agregar texto al elemento de la lista
+
     favoritesPreviewList.appendChild(previewItem);
   });
 
@@ -26,13 +35,3 @@ function toggleFavorite(button) {
     favoritesPreview.style.display = 'none';
   }
 }
-
-var favoritesCount = document.querySelector('.favorites-count');
-favoritesCount.addEventListener('click', function() {
-  var favoritesPreview = document.querySelector('.favorites-preview');
-  if (favoritesPreview.style.display === 'none') {
-    favoritesPreview.style.display = 'block';
-  } else {
-    favoritesPreview.style.display = 'none';
-  }
-});
