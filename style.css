@@ -24,6 +24,7 @@ p{margin: 20px 30px}
 .card-body img{
   display: block;
   margin: 0 auto;
+  margin-bottom: 15px;
   width: 530px;
   height: 350px;
 
@@ -189,4 +190,50 @@ h3 {
   font-size: 20px; /* Cambia el tamaño de fuente según tus preferencias */
   font-family: Arial
 }
+
+.card.favorito {
+  background-color: gold;
+  color: white;
+}
+
+
+.favorites-icon {
+  position: relative;
+}
+
+
+
+.favorites-count {
+  position: center;
+  top: 10px;
+  right: 10px;
+  background-color: gold;
+  color: white;
+  border-radius: 100%;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.favorites-preview {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: black;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: none;
+}
+
+.favorites-preview-list {
+  list-style: none;
+  padding: 0;
+}
+
+.favorites-preview-list li {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+
+
 
